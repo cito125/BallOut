@@ -12,9 +12,6 @@ public class Row {
     private final String obstacle = "X";
     private final String ball = "o";
 
-    public static void main(String[] args) {
-    }
-
     //Creates a random String row
     public String[] randomRow() {
         String[] randRow = emptyRow();
