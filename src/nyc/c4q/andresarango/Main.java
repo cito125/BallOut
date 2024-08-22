@@ -15,13 +15,14 @@ public class Main {
         int score = 0;
         boolean wantToPlayAgain = true;
 
-        System.out.println("Let's play Ballout!");
-        System.out.println("Your ball, o, has a tendency to roll down and to the right!");
-        System.out.println("Use your A,S, and D keys to move left, down, and right respectively");
-        System.out.println("To get to blocks one below you, enter a double left command");
-        System.out.println("After every command press ENTER");
-        System.out.println("Pay no mind to your shadow trailing behind you");
-        System.out.println("Keep your ball on the rows and, BALLOUT!!!!!! \n");
+        System.out.println("Let's play Ballout! A game of concentration.");
+		System.out.println("Your ball, o, has a tendency to roll down and to the right!");
+		System.out.println("You must guide your ball to counteract this tendency and onto the next spot.");
+		System.out.println("Use your A,S, and D keys to move left, down, and right respectively");
+		System.out.println("You can input multiple directions in a single play.");
+		System.out.println("After every command press ENTER");
+		System.out.println("Pay no mind to your shadow trailing behind you");
+		System.out.println("Keep your ball on the rows and, BALLOUT!!!!!! \n");
 
         while(wantToPlayAgain) {
 
@@ -39,7 +40,7 @@ public class Main {
             }
 
 
-            System.out.println("You almost made it! To what, I don't know!");
+            System.out.println("You almost made it! To what? I don't know");
             System.out.println("Play again? I hear losing is addicting...");
 
             while(true) {
